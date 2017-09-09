@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "UnicaOne Regular";
+  src: url(/assets/UnicaOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "CrimsonText Semibold";
+  src: url(/assets/CrimsonText-Semibold.ttf) format("truetype");
+}
+
+h1 {
+	font-family: 'UnicaOne Regular', Cursive;
+	font-size: 40px;
+}
+
+p {
+	font-family: 'CrimsonText Semibold', Serif;
+	font-size: 19px;
+}
+
+body {
+   background: #d5dcfc;
+}
+
+.background {
+  position: fixed;
+    bottom: 0;
+    right: 50px;
+
+}
+
+
+// .jumbotron {
+//      background: #d5dcfc;
+//    }
+
+.jumbotron {
+  border:2px solid black;
+}
+
+.nav.navbar-nav li a {
+    color: black;
+
+}
